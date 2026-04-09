@@ -33,6 +33,7 @@ export class ManageproductsComponent {
   updateToDummy(upobj:any){
     this.dummy=upobj;
     console.log(this.dummy)
+    
   }
   StoreInService(){
     this.result=this.service.updateProduct(this.dummy);
