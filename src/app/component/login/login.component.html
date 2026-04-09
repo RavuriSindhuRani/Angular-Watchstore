@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row p-5">
+        <div class="col-md-8">
+            <img src="https://static.vecteezy.com/system/resources/previews/021/919/677/non_2x/login-icon-in-trendy-flat-style-isolated-on-white-background-approach-symbol-for-your-web-site-design-logo-app-ui-illustration-eps10-flat-style-for-graphic-design-vector.jpg" alt="login" height="400px" width="400px">
+        </div>
+        <div class="col-md-4">
+            <form action="" (ngSubmit)="checkLogin()" ngNativeValidate>
+                <div class="form-group">
+                    <label for="" class="form-label"></label>
+                    <input type="text" class="form-control" [(ngModel)]="username" required="" name="uname" placeholder="enter username">
+                </div>
+                <div class="form-group">
+                    <label for="" class="form-label"></label>
+                    <input type="password" class="form-control" [(ngModel)]="password" required="" name="pwd" placeholder="enter username">
+                </div>
+                <div class="form-group p-2">
+                    <button type="submit" class="btn btn-primary me-3">Login</button>
+                    <button type="reset" class="btn btn-danger">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

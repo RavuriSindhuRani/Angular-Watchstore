@@ -1,0 +1,18 @@
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-md-2">
+        <nav class="navbar navbar-dark bg-dark" style="height: 740px;">
+            <ul class="navbar-nav p-3">
+                <li class="nav-item"><a routerLink="admin" class="nav-link">Home</a></li>
+                <li class="nav-item"><a routerLink="admin/add" class="nav-link">Add Products</a></li>
+                <li class="nav-item"><a routerLink="admin/view" class="nav-link">View Products</a></li>
+                <li class="nav-item"><a routerLink="admin/manage" class="nav-link">Manage Products</a></li>
+                <li class="nav-item"><a routerLink="" class="nav-link" (ngSubmit)="logout()">LogOut</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="col-md-10">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+</div>
